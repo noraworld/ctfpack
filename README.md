@@ -35,8 +35,8 @@ Sorting and output the result by any format.
 ```
 $ python sort.py <filepath> <source splitter> <destination splitter>
 
-<filepath>: Set the filepath.
-<source splitter>: Set the splitter. e.g. If numetic string is '1 2 3 4 5', then splitter is ' '. If omitting, the source splitter becomes ','.
+<filepath>:             Set the filepath.
+<source splitter>:      Set the splitter. e.g. If numetic string is '1 2 3 4 5', then splitter is ' '. If omitting, the source splitter becomes ','.
 <destination splitter>: Set the splitter. e.g. If splitter is ',', then output is '1,2,3,4,5'. If omitting, the destination splitter becomes ', '.
 
 option
