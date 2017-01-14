@@ -10,7 +10,11 @@ def sort(arr, dst_splitter, mode):
 
 
 def load(filepath, src_splitter, dst_splitter, mode):
-    file = open(filepath, 'r')
+    try:
+        file = open(filepath, 'r')
+    except:
+        print('No such file.')
+        exit()
     data = file.read()
     arr  = data.split(src_splitter)
     check_num(arr, dst_splitter, mode)
